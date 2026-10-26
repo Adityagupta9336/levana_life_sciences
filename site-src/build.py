@@ -181,7 +181,7 @@ BODY_HOME = """
 <a class="link-arrow" href="prescriptions.html">Upload a prescription <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </div>
 <div class="hero__facts">
-<div class="hero-fact"><strong>12,000+</strong><span>Products in catalogue</span></div>
+<div class="hero-fact"><strong>500+</strong><span>Products in catalogue</span></div>
 <div class="hero-fact"><strong>30 to 60 min</strong><span>Delivery in Meerut</span></div>
 <div class="hero-fact"><strong>Now open</strong><span>In Apex City Colony, Meerut</span></div>
 </div>
