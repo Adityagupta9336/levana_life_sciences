@@ -199,3 +199,4 @@ export const getAddresses = async (req: Request, res: Response): Promise<void> =
     res.status(500).json({ success: false, message: error.message || "Failed to fetch addresses." });
   }
 };
+

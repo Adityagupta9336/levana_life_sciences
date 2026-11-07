@@ -17,3 +17,4 @@ router.get("/pharmacist/queue", authenticate, requireRole(Role.PHARMACIST, Role.
 router.put("/:id/review", authenticate, requireRole(Role.PHARMACIST, Role.ADMIN), reviewPrescription);
 
 export default router;
+

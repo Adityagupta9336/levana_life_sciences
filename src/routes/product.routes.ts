@@ -16,3 +16,4 @@ router.get("/", getProducts);
 router.post("/", authenticate, requireRole(Role.ADMIN), createProduct);
 
 export default router;
+

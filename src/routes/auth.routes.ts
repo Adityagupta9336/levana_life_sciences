@@ -11,3 +11,4 @@ router.post("/addresses", authenticate, addAddress);
 router.get("/addresses", authenticate, getAddresses);
 
 export default router;
+

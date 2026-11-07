@@ -16,3 +16,4 @@ router.get("/batches", authenticate, requireRole(Role.ADMIN, Role.PHARMACIST), g
 router.get("/audit-logs", authenticate, requireRole(Role.ADMIN), getAuditLogs);
 
 export default router;
+

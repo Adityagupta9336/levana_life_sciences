@@ -190,3 +190,4 @@ export const reviewPrescription = async (req: Request, res: Response): Promise<v
     res.status(500).json({ success: false, message: error.message || "Failed to review prescription." });
   }
 };
+

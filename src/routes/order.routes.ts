@@ -18,3 +18,4 @@ router.get("/:id", authenticate, getOrderById);
 router.put("/:id/status", authenticate, requireRole(Role.PHARMACIST, Role.ADMIN), updateOrderStatus);
 
 export default router;
+
