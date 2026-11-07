@@ -64,7 +64,7 @@ export const createOrder = async (req: Request, res: Response): Promise<void> =>
     }
 
     let verifiedPrescriptionId: string | null = null;
-    let initialOrderStatus = OrderStatus.CONFIRMED;
+    let initialOrderStatus: OrderStatus = OrderStatus.CONFIRMED;
 
     if (requiresPrescription) {
       if (!prescriptionId) {
@@ -411,3 +411,4 @@ export const updateOrderStatus = async (req: Request, res: Response): Promise<vo
     res.status(500).json({ success: false, message: error.message || "Failed to update order status." });
   }
 };
+
